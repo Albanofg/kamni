@@ -297,6 +297,18 @@
   .featured{background:var(--paper-2)}
   .featured .quote{max-width:680px;margin:0 auto}
   footer .cities{font-size:13px;color:rgba(244,241,234,.45);letter-spacing:.06em}
+  /* featured in */
+  .press{padding:86px 0}
+  .press-head{text-align:center;margin-bottom:46px}
+  .press-head .kicker{justify-content:center;margin-bottom:0}
+  .press-head .kicker::after{content:"";width:26px;height:1px;background:var(--turq);display:inline-block}
+  .press-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:940px;margin:0 auto}
+  .press-logo{display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px 28px;min-height:118px;box-shadow:var(--shadow-sm);transition:.3s}
+  .press-logo img{max-width:100%;max-height:54px;width:auto;height:auto;object-fit:contain;filter:grayscale(1);opacity:.72;transition:.3s}
+  .press-logo:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+  .press-logo:hover img{filter:grayscale(0);opacity:1}
+  @media(max-width:680px){.press-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:430px){.press-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -306,7 +318,7 @@
     <a href="what-we-do.html">What We Do</a>
     <a href="insights.html">Insights</a>
     <a href="about.html" class="active">About</a>
-    <a href="mailto:kamnivijay@gmail.com" class="btn">Send me an email</a>
+    <a href="mailto:kamnivijay@gmail.com" class="btn">Send an Email</a>
   </div>
   <button class="navtoggle" id="navtoggle">Menu</button>
 </nav>
@@ -328,16 +340,9 @@
       </div>
       <div class="about-body reveal">
         <p>Kamni Vijay is a Life Sciences executive with more than twenty-five years leading global organizations across Genomics, Diagnostics, and healthcare technology. She has served as Chief Executive Officer of an AI-driven drug discovery company, which she guided to a successful exit, and as Vice President and General Manager at Bio-Techne, Becton Dickinson, Agilent Technologies, and Bio-Rad Laboratories, carrying global P&amp;Ls from roughly $100M to more than $2B.</p>
-        <p class="soft">Across those roles she has championed more than half a dozen acquisitions and led the integrations that followed, built and scaled commercial organizations, and shaped policy with members of Congress and the FDA on Diagnostics reimbursement and emergency-use authorization. Today she also serves as an Operating Partner at a San Francisco venture firm and sits on the boards and advisory boards of several companies across Genomics, Spatial Biology, Diagnostics, and AI-driven Discovery.</p>
-        <p class="soft">She holds a PhD in Microbiology from the University of California, Davis, where she was a three-time NIH Research Fellow, and a BA with Honors in Biochemistry and Molecular Biology from Dartmouth College.</p>
-        <p class="soft">She is a member of YPO, Women in Bio, and the Analytical, Life Sciences and Diagnostics Association (ALDA).</p>
-
-        <h3>A note from the founder</h3>
-        <p class="fnote">&ldquo;Every engagement has my hands on it directly, and when a project calls for more depth or specialized skills, I bring in trusted specialists I have worked with for years, so the work carries senior attention throughout.&rdquo;<span class="sig">Kamni Vijay, PhD</span></p>
-
-        <h3>What the practice stands for</h3>
-        <p class="soft">A few commitments run through everything here. You will get the recommendation we would act on ourselves, said plainly, including the parts that are hard to hear. The work moves at the speed of your business without cutting the analysis short, because we know what it is like to wait on an answer you needed yesterday. And what you share stays yours: your strategy, your data, and your deals are held in confidence, always.</p>
-        <p class="soft">Above all, this practice exists because building one of these companies is genuinely hard, and the people doing it deserve a partner who has felt that weight firsthand. That is the spirit we try to bring to every conversation, starting with the first one.</p>
+        <p>Across those roles she has championed more than half a dozen acquisitions and led the integrations that followed, built and scaled commercial organizations, and shaped policy with members of Congress and the FDA on Diagnostics reimbursement and emergency-use authorization. Today she also serves as an Operating Partner at a San Francisco venture firm and sits on the boards and advisory boards of several companies across Genomics, Spatial Biology, Diagnostics, and AI-driven Discovery.</p>
+        <p>She holds a PhD in Microbiology from the University of California, Davis, where she was a three-time NIH Research Fellow, and a BA with Honors in Biochemistry and Molecular Biology from Dartmouth College.</p>
+        <p>She is a member of YPO, Women in Bio, and the Analytical, Life Sciences and Diagnostics Association (ALDA).</p>
       </div>
     </div>
   </div>
@@ -352,6 +357,24 @@
       <div class="quote reveal"><div class="mk">&ldquo;</div><p>Kamni and her network of advisory partners took a strong scientific story and turned it into a fundable strategy. They reset our strategic plan, sharpened our pitch, and made the introductions to the B2B partners who mattered most for licensing. Having that combination of strategy and relationships in one place changed our trajectory.</p><div class="who">Ivana Mikic, Founder and CEO, Sarpeda</div></div>
       <div class="quote reveal"><div class="mk">&ldquo;</div><p>Kamni has been an incredible partner to work with. She helped us clearly define how we position Defent, sharpen our messaging, and wasn't afraid to roll up her sleeves to help drive real opportunities with government and local stakeholders. She is a natural leader and genuinely operates like part of the team.</p><div class="who">Ahmad Hussain, Founder and CEO, Defense Diagnostics</div></div>
       <div class="quote reveal"><div class="mk">&ldquo;</div><p>During Nanopath's formative stages, Kamni served as a valuable sounding board, bringing deep diagnostics industry expertise to our thinking around market positioning, commercialization, and operations. Her experience and willingness to engage made her a key resource for the leadership team, fostering open discussion and nuanced decision-making.</p><div class="who">Alison Burklund, PhD, and Amogha Tadimety, PhD, Co-Founders and Co-CEOs, Nanopath</div></div>
+    </div>
+  </div>
+</section><!-- FEATURED IN -->
+<section class="press">
+  <div class="wrap">
+    <div class="press-head reveal">
+      <span class="kicker">Featured In</span>
+    </div>
+    <div class="press-grid">
+      <div class="press-logo reveal"><img src="logos/Pharma%20Voice%201.jpg" alt="PharmaVoice" loading="lazy"></div>
+      <div class="press-logo reveal"><img src="logos/ABC-News.png" alt="ABC News" loading="lazy"></div>
+      <div class="press-logo reveal"><img src="logos/Wired%202.png" alt="WIRED" loading="lazy"></div>
+      <div class="press-logo reveal"><img src="logos/Medical%20Economics%20logo%201.jpg" alt="Medical Economics" loading="lazy"></div>
+      <div class="press-logo reveal"><img src="logos/Science%20logo.png" alt="Science" loading="lazy"></div>
+      <div class="press-logo reveal"><img src="logos/ClioHealth%202.webp" alt="CLIO Health" loading="lazy"></div>
+      <div class="press-logo reveal"><img src="logos/Intl%20Academy%20of%20Visual%20Arts%20logo.webp" alt="AIVA — Academy of Interactive and Visual Arts" loading="lazy"></div>
+      <div class="press-logo reveal"><img src="logos/The%20Telly%20Awards%202.webp" alt="The Telly Awards" loading="lazy"></div>
+      <div class="press-logo reveal"><img src="logos/Summit%20Awards%203.jpg" alt="Summit International Awards" loading="lazy"></div>
     </div>
   </div>
 </section><footer>
